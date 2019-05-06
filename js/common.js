@@ -2,9 +2,6 @@
 ** github - https://github.com/yangyunhe369
 */
 // 封装打印日志方法
-const log = console.log.bind(console)
-// 生成图片对象方法
-const imageFromPath = function (src) {
   let img = new Image()
   img.src = './images/' + src
   return img
