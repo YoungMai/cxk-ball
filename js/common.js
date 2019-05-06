@@ -4,7 +4,7 @@
 // 封装打印日志方法
   let img = new Image()
   img.src = './images/' + src
-  return img
+  
 }
 // 检测页面不可见时自动暂停游戏方法
 const isPageHidden = function (game) {
